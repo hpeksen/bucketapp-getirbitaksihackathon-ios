@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185BA6ED1E85CBB60043C40D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BA6EC1E85CBB60043C40D /* AppDelegate.swift */; };
+		185BA6EF1E85CBB60043C40D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BA6EE1E85CBB60043C40D /* ViewController.swift */; };
+		185BA6F21E85CBB60043C40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185BA6F01E85CBB60043C40D /* Main.storyboard */; };
+		185BA6F41E85CBB60043C40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185BA6F31E85CBB60043C40D /* Assets.xcassets */; };
+		185BA6F71E85CBB60043C40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185BA6F51E85CBB60043C40D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185BA6E91E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bucketapp-getirbitaksihackathon-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185BA6EC1E85CBB60043C40D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185BA6EE1E85CBB60043C40D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185BA6F11E85CBB60043C40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185BA6F31E85CBB60043C40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185BA6F61E85CBB60043C40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185BA6F81E85CBB60043C40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185BA6E61E85CBB60043C40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185BA6E01E85CBB60043C40D = {
+			isa = PBXGroup;
+			children = (
+				185BA6EB1E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios */,
+				185BA6EA1E85CBB60043C40D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185BA6EA1E85CBB60043C40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185BA6E91E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185BA6EB1E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios */ = {
+			isa = PBXGroup;
+			children = (
+				185BA6EC1E85CBB60043C40D /* AppDelegate.swift */,
+				185BA6EE1E85CBB60043C40D /* ViewController.swift */,
+				185BA6F01E85CBB60043C40D /* Main.storyboard */,
+				185BA6F31E85CBB60043C40D /* Assets.xcassets */,
+				185BA6F51E85CBB60043C40D /* LaunchScreen.storyboard */,
+				185BA6F81E85CBB60043C40D /* Info.plist */,
+			);
+			path = "bucketapp-getirbitaksihackathon-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185BA6E81E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185BA6FB1E85CBB60043C40D /* Build configuration list for PBXNativeTarget "bucketapp-getirbitaksihackathon-ios" */;
+			buildPhases = (
+				185BA6E51E85CBB60043C40D /* Sources */,
+				185BA6E61E85CBB60043C40D /* Frameworks */,
+				185BA6E71E85CBB60043C40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bucketapp-getirbitaksihackathon-ios";
+			productName = "bucketapp-getirbitaksihackathon-ios";
+			productReference = 185BA6E91E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185BA6E11E85CBB60043C40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = OnurCal;
+				TargetAttributes = {
+					185BA6E81E85CBB60043C40D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2X8G274X4W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 185BA6E41E85CBB60043C40D /* Build configuration list for PBXProject "bucketapp-getirbitaksihackathon-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185BA6E01E85CBB60043C40D;
+			productRefGroup = 185BA6EA1E85CBB60043C40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185BA6E81E85CBB60043C40D /* bucketapp-getirbitaksihackathon-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185BA6E71E85CBB60043C40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185BA6F71E85CBB60043C40D /* LaunchScreen.storyboard in Resources */,
+				185BA6F41E85CBB60043C40D /* Assets.xcassets in Resources */,
+				185BA6F21E85CBB60043C40D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185BA6E51E85CBB60043C40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185BA6EF1E85CBB60043C40D /* ViewController.swift in Sources */,
+				185BA6ED1E85CBB60043C40D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185BA6F01E85CBB60043C40D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185BA6F11E85CBB60043C40D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185BA6F51E85CBB60043C40D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185BA6F61E85CBB60043C40D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185BA6F91E85CBB60043C40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185BA6FA1E85CBB60043C40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185BA6FC1E85CBB60043C40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X8G274X4W;
+				INFOPLIST_FILE = "bucketapp-getirbitaksihackathon-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caliskan.bucketapp-getirbitaksihackathon-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		185BA6FD1E85CBB60043C40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X8G274X4W;
+				INFOPLIST_FILE = "bucketapp-getirbitaksihackathon-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caliskan.bucketapp-getirbitaksihackathon-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185BA6E41E85CBB60043C40D /* Build configuration list for PBXProject "bucketapp-getirbitaksihackathon-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185BA6F91E85CBB60043C40D /* Debug */,
+				185BA6FA1E85CBB60043C40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185BA6FB1E85CBB60043C40D /* Build configuration list for PBXNativeTarget "bucketapp-getirbitaksihackathon-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185BA6FC1E85CBB60043C40D /* Debug */,
+				185BA6FD1E85CBB60043C40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185BA6E11E85CBB60043C40D /* Project object */;
+}
