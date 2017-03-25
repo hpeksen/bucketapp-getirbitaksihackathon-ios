@@ -35,6 +35,7 @@
 		185BA7181E8628B60043C40D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		185BA7191E8628B60043C40D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		185BA71A1E8628B60043C40D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		185BA7201E8632B10043C40D /* bucketapp-getirbitaksihackathon-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bucketapp-getirbitaksihackathon-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		98E035CFD05EBD0AE9B2AA79 /* Pods-bucketapp-getirbitaksihackathon-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bucketapp-getirbitaksihackathon-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-bucketapp-getirbitaksihackathon-ios/Pods-bucketapp-getirbitaksihackathon-ios.release.xcconfig"; sourceTree = "<group>"; };
 		A97A965CDFF3FC87C6DC3A98 /* Pods_bucketapp_getirbitaksihackathon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bucketapp_getirbitaksihackathon_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FE833812E2BB37B8BB346D /* Pods-bucketapp-getirbitaksihackathon-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bucketapp-getirbitaksihackathon-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bucketapp-getirbitaksihackathon-ios/Pods-bucketapp-getirbitaksihackathon-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				185BA6F81E85CBB60043C40D /* Info.plist */,
 				185BA6FE1E85D2400043C40D /* MenuViewController.swift */,
 				185BA7001E85D2970043C40D /* MenuTableViewCell.swift */,
+				185BA7201E8632B10043C40D /* bucketapp-getirbitaksihackathon-ios-Bridging-Header.h */,
 			);
 			path = "bucketapp-getirbitaksihackathon-ios";
 			sourceTree = "<group>";
