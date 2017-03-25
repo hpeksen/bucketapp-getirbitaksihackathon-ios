@@ -99,7 +99,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bucket-logo" translatesAutoresizingMaskIntoConstraints="NO" id="1lf-lA-t1P">
+                                <rect key="frame" x="122" y="72" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="olT-am-pFk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1lf-lA-t1P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="106" id="RMe-yf-Sv7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1lf-lA-t1P" secondAttribute="trailing" constant="107" id="VAt-Ai-q6z"/>
+                            <constraint firstItem="1lf-lA-t1P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="cVL-Xu-K7r"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kcV-m5-nlu">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="ejK-1g-R3t">
@@ -111,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015" y="778"/>
+            <point key="canvasLocation" x="1013.6" y="777.66116941529242"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dog-MQ-FOj">
@@ -153,4 +166,7 @@
             <point key="canvasLocation" x="776.79999999999995" y="107.49625187406298"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bucket-logo" width="1103" height="1103"/>
+    </resources>
 </document>

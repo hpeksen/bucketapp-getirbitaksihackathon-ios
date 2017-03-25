@@ -8,8 +8,9 @@
 
 import UIKit
 import SideMenu
+import FBSDKLoginKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController,FBSDKLoginButtonDelegate {
 
     
     override func viewDidLoad() {
@@ -21,15 +22,31 @@ class MainViewController: UIViewController {
         SideMenuManager.menuLeftNavigationController = menuLeftNavigationController
         
         //Side menu gestures
-        SideMenuManager.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
-        SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
+      //  SideMenuManager.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
+       // SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
         
         SideMenuManager.menuPresentMode = .menuSlideIn
         
+        
+        let loginButton = FBSDKLoginButton()
+        loginButton.center = self.view.center
+        view.addSubview(loginButton)
+        loginButton.delegate = self
 
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+        if error != nil {
+        print("something went wrong...\(error)")
+            return
+        }
+        print("Successfully logged in Facebook")
+    }
 
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+        print("Successfully logged out Facebook")
+    }
     @IBAction func menuButtonClick(_ sender: Any) {
          present(SideMenuManager.menuLeftNavigationController!, animated: true, completion: nil)
     }
@@ -37,10 +54,7 @@ class MainViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
 
 
 }
